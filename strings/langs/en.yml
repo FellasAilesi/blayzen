@@ -75,12 +75,12 @@ admin_34 : "İleri Sarılırken Hata Oluştu."
 
 # Start
 start_1 : "**Beni {0} Grubunuza Davet Ettiğiniz İçin Teşekkürler.\n{1} Çalışıyor. ❤️‍🔥\n\nHerhangi Bir Yardım Almak İçin Destek Grubumuza Veya Kanalımıza Göz Atın.**"
-start_2 : "**{0}'una Hoş Geldiniz ❤️‍🔥\n\nGrubunuza Ekleyerek Sesli Sohbetlerinizde Müzik Dinleyebilirsiniz.**"
+start_2 : "**{0}'e Hoş Geldiniz ❤️‍🔥\n\nGrubunuza Ekleyerek Sesli Sohbetleriniz Kaliteli Müzik Dinleyebilirsiniz.**"
 start_3 : "Beni Grubunuza Davet Ettiğiniz İçin Teşekkürler.\n\n**Çalışmak için Sadece Sesli sohbetleri Yönetme ve Gruba Davet Etme Yetkisi Vermeniz Yeterlidir.** ❄️\n\nAsistan Kullanıcı Adı: @{1}"
 start_4 : "**{0}'unun Sahibi {1} Sohbetinize Katıldı.**"
 start_5 : "**{0}'u Çok Kıymetli {1} Beyefendinin Grubunuza Katıldığını Fark Etti. Kendisine Saygılarımı Sunarım.** 🙏"
 start_6 : ❗️ **Süper Grup Gerekli** ❗️ Lütfen Grubunuzu **Süper Gruba** dönüştürün ve sonra beni tekrar ekleyin. \n\n**Süper grup nasıl yapılır? 1-** Üyeler listesine gelin ve sağ üstteki kalem işaretine basın.\n**2-** Yeni üyeler için sohbet geçmişi ayarını Görünür olarak düzenleyin. Şimdi botu tekrar ekleyebilirsiniz"
-start_7 : "**Fellas Müzik Botun Grup Kapasitesi doldu** \n [Buraya Tıklayarak Yeni Botu Görebilirsiniz]({0})"
+start_7 : "**Blayzen Botun Grup Kapasitesi doldu** \n [Buraya Tıklayarak Yeni Botu Görebilirsiniz]({0})"
 
 # Help
 help_1 : "**Komutlar ve Öğreticileri Görmek İçin Aşağadaki Butonları Kullanınız ⚡**\n\nGrup Üyelerinin Sadece Oynatma Komutlarını, Grup Adminlerininse Ayrıca Admin Komutlarını İncelemeleri Yeterli Olacaktır. "
