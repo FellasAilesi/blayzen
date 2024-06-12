@@ -124,7 +124,7 @@ async def skip(cli, message: Message, _, chat_id):
             return await message.reply_text(_["call_9"])
         button = telegram_markup(_, chat_id)
         img = await gen_thumb(videoid)
-        run = await message.reply_message(
+        run = await message.reply_text(
             photo=img,
             caption=_["stream_1"].format(
                 user,
@@ -153,7 +153,7 @@ async def skip(cli, message: Message, _, chat_id):
             return await mystic.edit_text(_["call_9"])
         button = stream_markup(_, videoid, chat_id)
         img = await gen_thumb(videoid)
-        run = await message.reply_message(
+        run = await message.reply_text(
             photo=img,
             caption=_["stream_1"].format(
                 user,
@@ -170,7 +170,7 @@ async def skip(cli, message: Message, _, chat_id):
         except Exception:
             return await message.reply_text(_["call_9"])
         button = telegram_markup(_, chat_id)
-        run = await message.reply_message(
+        run = await message.reply_text(
             photo=config.STREAM_IMG_URL,
             caption=_["stream_2"].format(user),
             reply_markup=InlineKeyboardMarkup(button),
@@ -184,7 +184,7 @@ async def skip(cli, message: Message, _, chat_id):
             return await message.reply_text(_["call_9"])
         if videoid == "telegram":
             button = telegram_markup(_, chat_id)
-            run = await message.reply_message(
+            run = await message.reply_text(
                 photo=config.TELEGRAM_AUDIO_URL
                 if str(streamtype) == "audio"
                 else config.TELEGRAM_VIDEO_URL,
@@ -197,7 +197,7 @@ async def skip(cli, message: Message, _, chat_id):
             db[chat_id][0]["markup"] = "tg"
         elif videoid == "soundcloud":
             button = telegram_markup(_, chat_id)
-            run = await message.reply_message(
+            run = await message.reply_text(
                 photo=config.SOUNCLOUD_IMG_URL
                 if str(streamtype) == "audio"
                 else config.TELEGRAM_VIDEO_URL,
