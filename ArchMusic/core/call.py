@@ -386,7 +386,7 @@ class Call(PyTgCalls):
                     )
                 img = await gen_thumb(videoid)
                 button = telegram_markup(_, chat_id)
-                run = await app.send_photo(
+                run = await app.send_message(
                     original_chat_id,
                     photo=img,
                     caption=_["stream_1"].format(
