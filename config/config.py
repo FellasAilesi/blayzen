@@ -58,11 +58,11 @@ OWNER_ID = list(
 
 # Get it from http://dashboard.heroku.com/account
 
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-2e20cedf-98f9-4bc0-8c50-5a6e6ba968fb")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
 
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "blayzen")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 # For customized or modified Repository
 
@@ -78,17 +78,17 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 # GIT TOKEN ( if your edited repo is private)
 
-GIT_TOKEN = getenv("GIT_TOKEN", "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")
+GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 
 SUPPORT_CHANNEL = getenv(
 
-    "SUPPORT_CHANNEL", None) # Example:- https://t.me/FellasResmi
+    "SUPPORT_CHANNEL", None) # Example:- https://t.me/ArchBots
 
 SUPPORT_GROUP = getenv(
 
-    "SUPPORT_GROUP", None)  # Example:- https://t.me/FellasResmi
+    "SUPPORT_GROUP", None)  # Example:- https://t.me/ARCH_SUPPORTS
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 
@@ -184,7 +184,7 @@ SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
 
-STRING1 = getenv("STRING_SESSION", "BAGCo3wAv91z-3CmOjRsUNS-5yYmmrjuCeUU0xlBWFhfSOdMAN-36UI1cKGrLUkMPefPYAWJfqcmgBthdAnJ9YXiaXSqEBQSmQf-7XQ2mKLQb9mWq03_D5VxOR1aGaseqV4iYmSjvCugvofkpnkv6FL0ER1LjfeSgSlzmoka_ztrg7O7uhXh4aS_hDZuxJojXRhdVhJOjbGM3Upg_pku6fGrG8Pn6vdLVk-ASyuFTUHVWJ7oo9Riji1VD-Ii4vUca_xXbsWCMYUz3aImdxCx6J8msx7B_R5x02mpEJy-cJ-EOkbXoASTzr0X_1yOhsl9-3N1EGRbKHgNv3Kv33AP4jLwnBbHCwAAAAGlP822AA")
+STRING1 = getenv("STRING_SESSION", "")
 
 STRING2 = getenv("STRING_SESSION2", None)
 
@@ -218,7 +218,7 @@ autoclean = []
 
 # Images
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/79aaa85ef0eae972429c8.jpg")
+START_IMG_URL = getenv("START_IMG_URL", None)
 
 PING_IMG_URL = getenv(
 
