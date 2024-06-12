@@ -197,7 +197,7 @@ async def stream(
             )
             img = await gen_thumb(vidid)
             button = stream_markup(_, vidid, chat_id)
-            run = await app.send_photo(
+            run = await app.send_message(
                 original_chat_id,
                 photo=img,
                 caption=_["stream_1"].format(
