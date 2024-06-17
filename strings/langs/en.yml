@@ -227,12 +227,14 @@ queue_3 : "<u>**Sıradaki Parçalar:</u>**  [Sıradaki Parçalara Burdan Bakabil
 queue_4 : "⏳ Sıraya eklendi **#{0}\n\n🚀Başlık:** {1}\n**⏱Süre:** {2}\n👉**Talep Eden: {3}**"
 queue_5 : "Sırada Sadece Bir Parça Var, Lütfen Biraz Daha Parça Ekleyin. ⚡"
 
-# All Streaming Lines
-stream_1 : "🔮 **Yayın Başladı**\n\n👉**Talep Eden:** {0}\n🔦**Bilgi: **[Buradan]({1})"
-stream_2 : "🎧 **URL ile Yayına Başlandı **\n\n👉**Talep Eden: {0}**"
-stream_3 : "**⚡Başlık:** {0}\n⌛️**Süre**: {1}\n👉**Talep Eden: {2}**"
-stream_4 : "**⚡Başlık:** [{0}]({1})\n⌛️**Süre**: {2}\n👉**Talep Eden: {3}**"
-stream_5 : "**⚡Başlık:** {0}\n👉**Talep Eden: {1}**"
+stream_1 : " **Başlık** : {0} \n **Süre** : {2}\n **Talep Eden** : {3}"
+stream_2 : " **Yayın Başlatıldı** \n **Başlık**: {0}\n **Süre**: {2}\n **Talep Eden**: {3}"
+stream_3 : " **Başlık** : {0}\n **Süre** : {1}\n **Talep Eden** : {2}"
+stream_4 : " **Başlık** : [{0}]\n **Süre** : {2}\n **Talep Eden** : {3}"
+stream_5 : " **Başlık** : {0}\n **Talep Eden** :{1}"
+stream_6 : " **Yayın Başlatıldı**  \n **Başlık** : [{0}]({1})\n **Talep Eden** : {2}"
+
+
 
 # Inline Buttons
 
