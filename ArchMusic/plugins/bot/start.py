@@ -256,13 +256,13 @@ async def welcome(client, message: Message):
                 userbot = await get_assistant(message.chat.id)
                 out = start_pannel(_)
 
-                photo_url = "https://telegra.ph/file/4549a8258cbf8b9a2d5b8.jpg"  # Replace with the actual URL of the video
-                photo_caption = _["start_3"].format(config.MUSIC_BOT_NAME, userbot.username, userbot.id)
+                video_url = "https://telegra.ph/file/acfb445238b05315f0013.mp4"  # Replace with the actual URL of the video
+                video_caption = _["start_3"].format(config.MUSIC_BOT_NAME, userbot.username, userbot.id)
 
-                await app.send_photo(
+                await app.send_video(
                     message.chat.id,
-                    photo_url,
-                    caption=photo_caption,
+                    video_url,
+                    caption=video_caption,
                     reply_markup=InlineKeyboardMarkup(out)
                 )
             if member.id in config.OWNER_ID:
