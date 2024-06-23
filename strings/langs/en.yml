@@ -240,7 +240,7 @@ stream_6 : " **Yayın Başlatıldı**  \n**Başlık** : [{0}]({1})\n**👉Talep 
 
 #General Buttons
 CLOSE_BUTTON  : "💣 Kapat"
-CLOSEMENU_BUTTON  : "Menüyü Kapat"
+CLOSEMENU_BUTTON  : "✧ Menüyü Kapat"
 BACK_BUTTON : "⬅ Geri"
 UNBAN_BUTTON : "🗑 Asistanın yasağını kaldır"
 
@@ -278,8 +278,8 @@ P_B_4 : "🎵 Oynatma Listelerimi Oynat"
 
 #Playlist
 PL_B_1 : "⚡ Oynatma listelerimi oynat"
-PL_B_2 : "✅ Listeye Ekle"
-PL_B_3 : "⚙️ Kontrol Paneli"
+PL_B_2 : "✧ Listeye Ekle"
+PL_B_3 : "✧ Kontrol Paneli"
 PL_B_4 : "📡 Oynatma Modu"
 PL_B_5 : "🔄 Tüm Listeyi Sil"
 PL_B_6 : "↗️ Oynatma Listesini Sil"
